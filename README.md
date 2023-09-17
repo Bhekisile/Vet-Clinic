@@ -39,7 +39,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Populate Animal table with details]**
+- **[Populate Animals table]**
 - **[Quering table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,7 +97,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can start the repository.
+If you like this project you can star the repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
