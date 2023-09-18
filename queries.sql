@@ -122,3 +122,13 @@ LEFT JOIN animals A ON O.id = A.owner_id
 GROUP BY O.full_name
 ORDER BY COUNT(A.id) DESC
 LIMIT 1;
+
+-- Add 'join table' for visits
+
+SELECT A.name AS last_animal_seen
+FROM animals A
+JOIN visits V ON V.animal_id = A.id
+JOIN vets VE ON V.vet_id = VE.id
+WHERE VE.name = 'William Tatcher'
+ORDER BY V.date_of_visit DESC
+LIMIT 1;
