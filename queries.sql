@@ -91,4 +91,34 @@ FROM animals A
 JOIN owners O ON A.owner_id = O.id
 WHERE O.full_name = 'Melody Pond';
 
+SELECT A.name 
+FROM animals A
+JOIN species S ON A.species_id = S.id
+WHERE S.name = 'Pokemon';
 
+SELECT A.name, O.full_name
+FROM owners O
+LEFT JOIN animals A ON O.id = A.owner_id;
+
+SELECT S.name AS species_name, COUNT(A.id) AS animal_count
+FROM species S
+LEFT JOIN animals A ON S.id = A.species_id
+GROUP BY S.name;
+
+SELECT A.name AS digimon_name
+FROM animals A
+JOIN species S ON A.species_id = S.id
+JOIN owners O ON A.owner_id = O.id
+WHERE O.full_name = 'Jennifer Orwell' AND S.name = 'Digimon';
+
+SELECT A.name 
+FROM animals A
+JOIN owners O ON A.owner_id = O.id
+WHERE O.full_name = 'Dean Winchester' AND A.escape_attempts = 0;
+
+SELECT O.full_name AS owner_name, COUNT(A.id) AS animal_count
+FROM owners O
+LEFT JOIN animals A ON O.id = A.owner_id
+GROUP BY O.full_name
+ORDER BY COUNT(A.id) DESC
+LIMIT 1;
