@@ -39,8 +39,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Populate Animals table]**
+- **[Used of aggregate function]**
 - **[Quering table]**
+- **[Used of transaction function]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
