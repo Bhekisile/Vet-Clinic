@@ -83,3 +83,12 @@ SELECT species, AVG(escape_attempts) AS avg_escape_attempts
 FROM animals
 WHERE date_of_birth BETWEEN 'Jan 1 1990' AND 'Dec 31 2000'
 GROUP BY species;
+
+-- Query multiple table
+
+SELECT A.name, O.full_name 
+FROM animals A
+JOIN owners O ON A.owner_id = O.id
+WHERE O.full_name = 'Melody Pond';
+
+
