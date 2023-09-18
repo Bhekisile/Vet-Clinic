@@ -39,9 +39,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Used of aggregate function]**
-- **[Quering table]**
-- **[Used of transaction function]**
+- **[Primary key and foreign key]**
+- **[one-to-many relationships]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +77,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add more tables]**
-- [ ] **[Add primary keys and foreign keys]**
-- [ ] **[Tables relationship]**
+- [ ] **[Add join table for visit]**
+- [ ] **[Database performance audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
