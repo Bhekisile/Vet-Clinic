@@ -22,7 +22,7 @@
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-**[Vet Clinic Database]** is a project uses a relational database to manage the data and records of a veterinary clinic. The postgreSQL is a database management system used for this project to create and query tables.
+**[Vet Clinic Database]** is a project that uses a relational database to manage the data and records of a veterinary clinic. The postgreSQL is a database management system used for this project to create and query tables.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,7 +40,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Primary key and foreign key]**
-- **[one-to-many relationships]**
+- **[one-to-many and many-to-many relationships]**
+- **[Queries that answer analytical and specific questions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +78,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add join table for visit]**
 - [ ] **[Database performance audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
