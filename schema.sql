@@ -41,3 +41,13 @@ ADD COLUMN species_id INT REFERENCES species(id);
 
 ALTER TABLE animals
 ADD COLUMN owner_id INT REFERENCES owners(id);
+
+--------------------------------------------------
+
+ALTER TABLE species
+ALTER COLUMN name TYPE
+VARCHAR(255);
+
+ALTER TABLE owners
+ALTER COLUMN full_name TYPE
+VARCHAR(255);
