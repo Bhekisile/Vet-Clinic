@@ -41,7 +41,7 @@
 
 - **[Primary key and foreign key]**
 - **[one-to-many and many-to-many relationships]**
-- **[Queries that answer analytical and specific questions]**
+- **[Database Schema diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
